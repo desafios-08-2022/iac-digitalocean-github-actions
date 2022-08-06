@@ -17,4 +17,21 @@ watch kubectl get svc
 espere gerar o IP, acesse a aplicação no navegador e faça seus testes!
 
 
+
+Faça a configuração do seu github-actions
+
+crie as secrets em Settings -> secrets -> Actions
+
+```
+DOCKERHUB_PWD -> seu usuario no dockerhub
+DOCKERHUB_USER -> sua senha no dockerhub
+KUBECONFIG_K8S -> conteudo do seu arquivo ~/.kube/config
+```
+
+1 - configure conforme sua realidade
+2 - suba o projeto
+3 - altere o arquivo "./kube-news/src/views/partial/nav-bar.ejs" na linha 5
+4 - suba o projeto novamente e verifique a alteração
+
+
 terraform destroy
