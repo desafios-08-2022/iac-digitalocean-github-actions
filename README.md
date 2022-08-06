@@ -1,4 +1,5 @@
 # iac-digitalocean-github-actions
+[![CI-CD](https://github.com/desafios-08-2022/iac-digitalocean-github-actions/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/desafios-08-2022/iac-digitalocean-github-actions/actions/workflows/ci-cd.yml)
 
 crie e populo o arquivo terraform.tfvars conforme exemplo
 o Token da DO é na console no menu API
